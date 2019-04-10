@@ -1,0 +1,6 @@
+echo "Parsing questions..."
+./parse_questions.py "questions.html" $2 $3
+echo "Converting questions from html to latex..."
+pandoc --wrap=preserve questions.html -f html -t latex -s -o $1 
+echo "Adding a few finishing touches..."
+./amend_latex.py $1

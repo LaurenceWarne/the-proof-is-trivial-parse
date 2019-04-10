@@ -1,0 +1,9 @@
+*.log
+*.tex
+*.aux
+*.html
+*.out
+*.pdf
+
+# Emacs backups
+*~
