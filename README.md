@@ -1,8 +1,8 @@
 # The Proof is Trivial Parse
 
-One Paragraph of project description goes here
+Here you can find a script to parse questions from the tsr thread [The Proof is Trivial](https://www.thestudentroom.co.uk/showthread.php?t=2313384). Also contains an example pdf with the first 500 questions.
 
-## Getting Started
+## Requirements
 
 Requires python3 and pandoc.
 
@@ -16,5 +16,5 @@ $ questions2latex [name of output latex file] [question number to start at] [que
 
 ```
 # Will write questions 5 to 25 (inclusive) to questions.tex
-questions2latex questions.tex 5 25
+$ questions2latex questions.tex 5 25
 ```
